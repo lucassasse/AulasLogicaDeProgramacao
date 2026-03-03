@@ -52,10 +52,20 @@ console.log("_______________________________");
 console.log("_______________________________");
 
 // ------------------------------------------------------------
-// EXERCÍCIO 5 – Desafio: Mensagem motivacional
+// EXERCÍCIO 5 – Mensagem motivacional
 // ------------------------------------------------------------
 // Crie uma variável com seu nome e outra com um objetivo para este ano.
 // Use template literal para criar uma mensagem motivacional personalizada.
+
+// → Seu código aqui:
+
+
+console.log("_______________________________");
+
+// ------------------------------------------------------------
+// EXERCÍCIO 6 – Menu
+// ------------------------------------------------------------
+// Utilizando apenas console.log(), reproduza o menu que esta na imagem "exemplo-menu-atividade-01-2" anexa junto a esta atividade
 
 // → Seu código aqui:
 
