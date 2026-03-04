@@ -1,5 +1,5 @@
 // ============================================================
-//   ATIVIDADE 02 – Input e Output em JavaScript
+//   ATIVIDADE 03 – Input e Output em JavaScript
 // ============================================================
 // Instruções: resolva cada exercício no espaço indicado.
 // Use console.log() para exibir os resultados.

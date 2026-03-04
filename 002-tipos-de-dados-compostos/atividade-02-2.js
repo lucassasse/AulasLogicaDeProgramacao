@@ -1,5 +1,5 @@
 // ============================================================
-//   ATIVIDADE 02 – Objetos em JavaScript
+//   ATIVIDADE 02-2 – Objetos em JavaScript
 // ============================================================
 // Instruções: resolva cada exercício no espaço indicado.
 // Use console.log() para exibir os resultados.
