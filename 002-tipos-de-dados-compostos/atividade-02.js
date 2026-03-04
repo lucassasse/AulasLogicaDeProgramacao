@@ -17,7 +17,6 @@
 
 console.log("_______________________________");
 
-
 // ------------------------------------------------------------
 // EXERCÍCIO 2 – Métodos básicos
 // ------------------------------------------------------------
@@ -46,8 +45,8 @@ console.log("_______________________________");
 // ------------------------------------------------------------
 // EXERCÍCIO 4 – Todos os tipos
 // ------------------------------------------------------------
-// a) Crie um array com todos os tipos de dados que você conhece (number, string...).
-// b) Em uma única linha, exiba os valores armazenados nesta lista e a quantidade de itens armazenados
+// a) Crie um array com variáveis de todos os tipos de dados que você conhece (number, string...).
+// b) Em uma única linha, exiba os valores armazenados nesta lista e também a quantidade de itens armazenados
 
 // → Seu código aqui:
 
@@ -64,6 +63,46 @@ console.log("_______________________________");
 // d) Exiba a lista novamente.
 // e) Adicione um novo item no final e ou no início da lista.
 // f) Exiba a lista final.
+
+// → Seu código aqui:
+
+
+console.log("_______________________________");
+
+
+// ------------------------------------------------------------
+// EXERCÍCIO 6 – indexOf, includes
+// ------------------------------------------------------------
+// a) Dado um array de nomes, verifique o índice de um nome específico.
+// b) Busque por um nome específico que não existe na lista.
+
+const nomes = ["Ana", "Bruno", "Carolina", "Daniel", "Eduardo"];
+// → Seu código aqui:
+
+
+console.log("_______________________________");
+
+
+// ------------------------------------------------------------
+// EXERCÍCIO 7 – slice, concat
+// ------------------------------------------------------------
+// a) Dado dois arrays de letras, junte os 2 em um só usando concat() e exiba o resultado.
+// b) Use slice para criar uma nova array, contendo somente os elementos entre a 2ª e a 4ª posição
+//    do array que você criou usando o concat() e exiba o resultado.
+
+const letras1 = ["a", "b", "c", "d", "e"];
+const letras2 = ["f", "g"];
+// → Seu código aqui:
+
+
+console.log("_______________________________");
+
+
+// ------------------------------------------------------------
+// EXERCÍCIO 8 – arrays aninhados (array dentro de array) e flat
+// ------------------------------------------------------------
+// a) Crie um array aninhado, ebixa-o. Acesso elementos internos deste array.
+// b) Use flat para achatar o array em um unico nível (os arrays internos se tornam elementos individuais) e exiba-o.
 
 // → Seu código aqui:
 

@@ -7,11 +7,13 @@
 // Simplificando: Objeto é como um dicionário.
 
 const cadastroFilho = {
+
   nome: "Junior da Silva",
 
   idade: 18,
 
   email: "juninsilva@email.com"
+
 }
 
 console.log(cadastroFilho);
@@ -19,9 +21,10 @@ console.log(`Cadastro: ${cadastroFilho}`); // erro: pois não é possível conve
 
 console.log("_______________________________");
 
-// Também podemos armazenar Listas, Objetos e até outras variáveis dentro de um Objeto
+// Também podemos armazenar Listas, Variáveis e até outros Objetos dentro de um Objeto
 
 const pessoa = {
+
 	nome: "Mariana",
 
 	idade: 40,
@@ -36,6 +39,7 @@ const pessoa = {
 	},
 
   filho: cadastroFilho
+
 };
 
 console.log(pessoa);
@@ -77,7 +81,7 @@ console.log(cadastroFilho);
 
 console.log("_______________________________");
 
-// É possível adicionar um Objeto dentro de um Array
+// Também é possível adicionar um Objeto dentro de um Array
 
 const listaDePessoas = ["informação qualquer", true, 34, cadastroFilho];
 

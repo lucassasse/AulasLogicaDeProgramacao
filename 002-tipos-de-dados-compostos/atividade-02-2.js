@@ -79,3 +79,17 @@ console.log("_______________________________");
 
 console.log("_______________________________");
 
+
+// ------------------------------------------------------------
+// EXERCÍCIO 7 – Objetos e Arrays
+// ------------------------------------------------------------
+// a) Crie um array "listaDeAlunos" que contenha 3 alunos. Cada aluno deve ser um objeto (não uma variável que contem um objeto).
+// b) Cada objeto aluno deve conter nome(string), idade(number) e notas(array de numbers).
+// c) Exiba o nome e as notas de cada aluno.
+
+
+// → Seu código aqui:
+
+
+console.log("_______________________________");
+
