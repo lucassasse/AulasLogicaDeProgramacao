@@ -32,8 +32,9 @@ console.log("_______________________________");
 // ------------------------------------------------------------
 // EXERCÍCIO 3 – Tipos primitivos em frases
 // ------------------------------------------------------------
-// Crie uma variável de cada tipo primitivo: string, number, boolean, undefined, null.
-// Para cada uma, exiba uma frase usando template literal que diga o valor e o tipo.
+// Crie uma variável para cada tipo primitivo: string, number, boolean, undefined, null.
+// Para cada variável criada exiba uma frase usando template literal.
+//    Cada frase deve mostrar o valor da variável e o tipo dela.
 
 // → Seu código aqui:
 
@@ -65,7 +66,7 @@ console.log("_______________________________");
 // ------------------------------------------------------------
 // EXERCÍCIO 6 – Menu
 // ------------------------------------------------------------
-// Utilizando apenas console.log(), reproduza o menu que esta na imagem "exemplo-menu-atividade-01-2" anexa junto a esta atividade
+// Utilizando apenas console.log(), reproduza o menu que esta na imagem "exemplo-menu-atividade-01-2" que está na mesma pasta desta atividade.
 
 // → Seu código aqui:
 

@@ -46,9 +46,16 @@ console.log("_______________________________");
 // ------------------------------------------------------------
 // EXERCÍCIO 4 – Objetos: acessar e adicionar propriedades
 // ------------------------------------------------------------
-const pessoa = { nome: 'Junin', idade: 22, cidade: 'Porto Alegre' };
-// a) Acesse e exiba a propriedade 'nome' e 'cidade'.
-// b) Adicione uma nova propriedade 'curso' com valor 'Programação' por atribuição direta.
+const pessoa = { 
+  nome: 'Junin',
+  idade: 22,
+  endereco: {
+    cidade: 'Porto Alegre',
+    rua: 'Avenida Brasil'
+  } 
+};
+// a) Acesse e exiba a propriedade 'nome' e 'cidade' do objeto 'pessoa'.
+// b) Adicione uma nova propriedade 'curso' com valor 'Programação' ao objeto 'pessoa'.
 
 // → Seu código aqui:
 
@@ -61,11 +68,16 @@ console.log("_______________________________");
 // ------------------------------------------------------------
 const perfil = {
   usuario: 'ana123',
-  dados: { nome: 'Ana', idade: 19 },
-  interesses: ['música', 'fotografia', 'viagens']
+  dados: { 
+    nome: 'Ana',
+    idade: 19,
+    interesses: ['música', 'fotografia', 'viagens']
+  }
 };
-// a) Acesse o nome dentro de 'dados' e o segundo interesse.
-// b) Altere o primeiro interesse para 'arte' por atribuição direta.
+// a) Exiba o nome da pessoa cadastrada em 'perfil'.
+// b) Exiba o segundo interesse da pessoa.
+// c) Altere o primeiro interesse para 'arte' por atribuição direta.
+// d) Exiba o nome, a idade e a lista de interesse da pessoa.
 
 // → Seu código aqui:
 
@@ -76,9 +88,10 @@ console.log("_______________________________");
 // ------------------------------------------------------------
 // EXERCÍCIO 6 – Criar um catálogo (array de objetos e objeto indexado)
 // ------------------------------------------------------------
-// Crie um array 'produtos' contendo 3 produtos, onde cada produto é um objeto contendo id, nome e preço.
-// Crie um objeto 'catalogo' onde as chaves são os ids dos produtos e os valores são o nome
-// e os valores são os objetos de produto correspondentes (sem usar loops ou funções).
+// Crie um array 'produtos' contendo 3 produtos, onde cada produto é um objeto contendo:
+//    id(number), nomeDoProduto(string) e preço(number).
+// Crie um objeto 'catalogo' onde as chaves são os ids dos produtos (1, 2, 3)
+//    e os valores são o nome dos produtos correspondentes.
 
 // → Seu código aqui:
 
@@ -92,6 +105,8 @@ console.log("_______________________________");
 // Defina um array de tarefas com 3 objetos: { id, titulo, concluida(boolean) }.
 // a) Marque a tarefa de id 2 como concluída por atribuição direta.
 // b) Crie um novo array contendo apenas as tarefas que não estão concluídas
+// c) Exiba o título de todas as tarefas do objeto.
+// d) Exiba o título de todas as tarefas do array.
 
 // → Seu código aqui:
 

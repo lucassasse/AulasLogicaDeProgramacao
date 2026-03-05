@@ -20,7 +20,8 @@ console.log("_______________________________");
 // ------------------------------------------------------------
 // EXERCÍCIO 2 – Métodos básicos
 // ------------------------------------------------------------
-// a) Adicione uma nova cor ao final de "cores", utilizando as funções de array.
+// a) Utilizando a lista declarada na questão anterior:
+//    Adicione uma nova cor ao final de "cores", utilizando as funções de array.
 // b) Remova a primeira cor, utilizando as funções de array.
 // c) Exiba o array resultante e depois a quantidade de itens armazendos (length).
 
@@ -33,7 +34,7 @@ console.log("_______________________________");
 // ------------------------------------------------------------
 // EXERCÍCIO 3 – Números
 // ------------------------------------------------------------
-// a) Crie um array de números.
+// a) Crie um array com cinco números aleatórios.
 // b) Em uma única linha, exiba os valores armazenados nesta lista e a quantidade de números armazenados (quantidade de itens, não a soma)
 
 // → Seu código aqui:
@@ -57,12 +58,9 @@ console.log("_______________________________");
 // ------------------------------------------------------------
 // EXERCÍCIO 5 – Mudando a lista
 // ------------------------------------------------------------
-// a) Crie um array com vários dados de vários tipos diferentes.
-// b) Exiba a lista.
-// c) Remova o primeiro e o último item da lista, utilizando as funções de array.
-// d) Exiba a lista novamente.
-// e) Adicione um novo item no final e ou no início da lista.
-// f) Exiba a lista final.
+// a) Crie um array com vários dados de vários tipos diferentes e exiba a lista.
+// b) Remova o primeiro e o último item da lista, utilizando as funções de array e exiba a lista novamente.
+// c) Adicione um novo item no final e ou no início da lista e exiba a lista final.
 
 // → Seu código aqui:
 
@@ -74,7 +72,7 @@ console.log("_______________________________");
 // EXERCÍCIO 6 – indexOf, includes
 // ------------------------------------------------------------
 // a) Dado um array de nomes, verifique o índice de um nome específico.
-// b) Busque por um nome específico que não existe na lista.
+// b) Busque por um nome específico que não existe na lista e verifique qual o retorno.
 
 const nomes = ["Ana", "Bruno", "Carolina", "Daniel", "Eduardo"];
 // → Seu código aqui:
@@ -101,7 +99,7 @@ console.log("_______________________________");
 // ------------------------------------------------------------
 // EXERCÍCIO 8 – arrays aninhados (array dentro de array) e flat
 // ------------------------------------------------------------
-// a) Crie um array aninhado, ebixa-o. Acesso elementos internos deste array.
+// a) Crie um array aninhado e exiba-o. Acesso elementos internos deste array.
 // b) Use flat para achatar o array em um unico nível (os arrays internos se tornam elementos individuais) e exiba-o.
 
 // → Seu código aqui:

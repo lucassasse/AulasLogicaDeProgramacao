@@ -2,6 +2,16 @@
 //   AULA: Variáveis e Tipos de Dados Primitivos em JavaScript
 // ============================================================
 
+// ============================================================
+// 0. INTRODUÇÃO
+// ============================================================
+
+// Para exibir valores no console, utilizamos o console.log()
+
+console.log("Olá, Mundo!"); // exibe a mensagem "Olá, Mundo!" no console
+
+// Posso exibir várias coisas juntas, separando por vírgula
+console.log("Nome:", "outra informação", 1, 2, 3);
 
 // ============================================================
 // 1. DECLARAÇÃO DE VARIÁVEIS
@@ -18,6 +28,21 @@ const PI          = 3.14159;    // constante, não muda
 console.log(nomePessoa, idade, PI);
 console.log("_______________________________");
 
+// Observações:
+
+// NÃO É POSSÍVEL CRIAR DUAS VARIÁVEIS COM O MESMO NOME
+// Exemplo de utilização para informações similares:
+let nome1 = "fulano"
+let nome2 = "ciclano"
+let nome3 = "beltrano"
+
+console.log("Nome2 original:", nome2);
+
+// Se eu quiser substituir o valor de nome2, posso fazer:
+nome2 = "ciclano Silva";
+// Observe: Não utilizei let ou const, pois a variável já foi declarada/criada
+
+console.log("Nome2 após alteração:", nome2);
 
 // ============================================================
 // 2. TIPOS PRIMITIVOS

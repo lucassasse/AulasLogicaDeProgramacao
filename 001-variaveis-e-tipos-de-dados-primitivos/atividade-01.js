@@ -39,9 +39,9 @@ console.log("_______________________________");
 // ------------------------------------------------------------
 // EXERCÍCIO 3 – Boolean
 // ------------------------------------------------------------
-// a) Declare "maiorDeIdade" como true se você tem 18 anos ou mais, false caso contrário.
-// b) Declare "temCNH" com um valor booleano que represente se você tem carteira de motorista.
-// c) Exiba as duas variáveis e seus tipos (typeof).
+// a) Declare uma variável "maiorDeIdade" com um valor booleano que represente se você tem 18 anos ou mais.
+// b) Declare uma variável "temCNH" com um valor booleano que represente se você tem carteira de motorista.
+// c) Exiba o valor das duas variáveis e seus tipos (typeof).
 
 // → Seu código aqui:
 
@@ -53,9 +53,8 @@ console.log("_______________________________");
 // EXERCÍCIO 4 – Undefined e Null
 // ------------------------------------------------------------
 // a) Declare uma variável "apelido" sem atribuir nenhum valor.
-// b) Declare uma variável "enderecoAtual" e atribua null intencionalmente.
+// b) Declare uma variável "enderecoAtual" e atribua null.
 // c) Exiba as duas variáveis e seus respectivos tipos (typeof).
-// d) Explique (em um comentário) por que typeof null retorna "object".
 
 // → Seu código aqui:
 
@@ -66,8 +65,9 @@ console.log("_______________________________");
 // ------------------------------------------------------------
 // EXERCÍCIO 5 – Identificando tipos (typeof)
 // ------------------------------------------------------------
-// Para cada valor abaixo, use typeof e exiba o resultado no console.
-// Tente adivinhar o resultado ANTES de executar!
+// Crie uma variável para cada um dos valores abaixo.
+// Para cada variável, exiba no console utilizando template literal, algo como: 
+//    "A variável ... possui o valor: <valor> e é do tipo <tipo>"".
 
 // 42
 // "texto"
@@ -86,7 +86,7 @@ console.log("_______________________________");
 //   • nome, idade, altura (número decimal), cidade, estudandoJS (boolean)
 // Em seguida, exiba no console uma mensagem completa usando template literal:
 //   "Olá! Meu nome é <nome>, tenho <idade> anos, moro em <cidade>,
-//    meço <altura>m e estou estudando JavaScript: <estudandoJS>."
+//    tenho <altura>m de altura e estou estudando JavaScript: <estudandoJS>."
 
 // → Seu código aqui:
 

@@ -10,7 +10,7 @@
 // EXERCÍCIO 1 – Criando objetos
 // ------------------------------------------------------------
 // a) Crie um objeto "aluno" com as propriedades: nome, idade, curso.
-// b) Exiba o nome do aluno usando notação ponto.
+// b) Exiba somente o nome do aluno.
 
 // → Seu código aqui:
 
@@ -21,8 +21,9 @@ console.log("_______________________________");
 // ------------------------------------------------------------
 // EXERCÍCIO 2 – Aninhamento e acesso
 // ------------------------------------------------------------
-// a) Adicione uma propriedade "endereco" ao objeto com cidade e rua.
-// b) Exiba a cidade
+// a) No objeto aluno criado anteriormente:
+//    Adicione uma propriedade "endereco", que deve ser um objeto contendo cidade e rua.
+// b) Exiba a cidade que o aluno mora.
 
 // → Seu código aqui:
 
@@ -33,7 +34,8 @@ console.log("_______________________________");
 // ------------------------------------------------------------
 // EXERCÍCIO 3 – Habilidades (array dentro do objeto)
 // ------------------------------------------------------------
-// a) Adicione uma propriedade "habilidades" (array) ao objeto "aluno".
+// a) No objeto aluno criado anteriormente:
+//    Adicione uma propriedade "habilidades", que deve ser um array com algumas habilidades.
 // b) Exiba a primeira habilidade.
 
 // → Seu código aqui:
@@ -45,7 +47,8 @@ console.log("_______________________________");
 // ------------------------------------------------------------
 // EXERCÍCIO 4 – Notas e média
 // ------------------------------------------------------------
-// a) Adicione uma propriedade "notas", sendo esse um array de números.
+// a) No objeto aluno criado anteriormente:
+//    Adicione uma propriedade "notas", que deve ser um array com 3 aleatórias.
 // b) Exiba em uma única frase, o nome do aluno e suas notas.
 
 // → Seu código aqui:
@@ -57,9 +60,10 @@ console.log("_______________________________");
 // ------------------------------------------------------------
 // EXERCÍCIO 5 – Objetos aninhados e alteração
 // ------------------------------------------------------------
-// a) Adicione uma propriedade "responsavel" que é um objeto com nome e parentesco (mãe ou pai ou irmão, etc).
-// b) Exiba o nome do responsável.
-// c) Altere o nome do responsável e mostre que o objeto foi atualizado.
+// a) No objeto aluno criado anteriormente:
+//    Adicione uma propriedade "responsavel", que deve ser um objeto contendo nome e parentesco(se é mãe ou pai ou irmão, etc).
+// b) Exiba o nome do responsável do aluno.
+// c) Altere o nome do responsável e mostre que o objeto aluno foi atualizado.
 
 // → Seu código aqui:
 
@@ -69,10 +73,11 @@ console.log("_______________________________");
 // ------------------------------------------------------------
 // EXERCÍCIO 6 – Lista de alunos (array de objetos)
 // ------------------------------------------------------------
-// a) Crie um array "listaDeAlunos" e adicione o objeto "aluno".
-// b) Crie outros dois objetos com dados de outros alunos.
-// c) Adicione os outros alunos na lista de alunos.
-// c) Exiba o nome do segundo aluno da lista.
+// a) Crie um array "listaDeAlunos" e adicione o objeto "aluno" criado na questão 1 e alterado ao longo das demais questões.
+// b) Crie outros dois objetos com dados de outros alunos, contendo as propriedades: nome, idade, curso.
+// c) Adicione os novos alunos na lista de alunos.
+// d) Exiba o nome do segundo aluno da lista de alunos.
+// e) Exiba a segunda nota do primeiro aluno da lista de alunos.
 
 // → Seu código aqui:
 
@@ -83,9 +88,15 @@ console.log("_______________________________");
 // ------------------------------------------------------------
 // EXERCÍCIO 7 – Objetos e Arrays
 // ------------------------------------------------------------
-// a) Crie um array "listaDeAlunos" que contenha 3 alunos. Cada aluno deve ser um objeto (não uma variável que contem um objeto).
-// b) Cada objeto aluno deve conter nome(string), idade(number) e notas(array de numbers).
-// c) Exiba o nome e as notas de cada aluno.
+// a) Crie um array "listaDeAlunos2" que contenha 3 alunos.
+//    Dessa vez, cada aluno deve ser um objeto direto dentro da lista (não uma variável que contém um objeto).
+// b) Cada objeto aluno deve conter nome(string), idade(number) e três notas(array de numbers).
+// c) Exiba a 2ª nota do 3º aluno.
+// d) Exiba o nome do 1º aluno.
+// e) Exiba a 3ª nota do 2º aluno.
+// f) Exiba o nome e a 1ª nota do 3º aluno.
+// g) Exiba o nome, a idade e a 1ª nota do 2º aluno.
+// h) Exiba o nome e a 2ª nota do 1º aluno.
 
 
 // → Seu código aqui:
