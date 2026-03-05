@@ -88,3 +88,13 @@ const listaDePessoas = ["informação qualquer", true, 34, cadastroFilho];
 listaDePessoas.push(pessoa);
 
 console.log(listaDePessoas);
+
+console.log("_______________________________");
+
+// Removendo uma propriedade de um Objeto
+
+console.log("Antes de remover a informação extra:", pessoa);
+
+delete pessoa.informacaoExtra;
+
+console.log("Depois de remover a informação extra:", pessoa);
