@@ -45,26 +45,31 @@ console.log('--- Fim da seção de OUTPUT ---');
 // ============================================================
 
 // Requer o pacote readline-sync para entrada interativa.
-// Sempre preciso instanciar/declarar ele para iniciar a captura de dados
-let readlineSync = require('readline-sync');
+// Preciso instanciar/declarar ele para iniciar a captura de dados
+// Dicas: 
+//    Deixe ele no início do código, para melhor organização.
+// 		Necessário somente uma vez por arquivo.
+let lerTeclado = require('readline-sync');
 
 // Captura interativa do usuário
-const nomeUsuario = readlineSync.question('Digite seu nome: ');
+const nomeUsuario = lerTeclado.question('Digite seu nome: ');
 
 // questionInt garante que o valor retornado é um número inteiro
-const idadeUsuario = readlineSync.questionInt('Digite sua idade: ');
+const idadeUsuario = lerTeclado.questionInt('Digite sua idade: ');
+
+console.log(`Olá, ${nomeUsuario}! Idade: ${idadeUsuario}`);
 
 // keyInYN pergunta sim/não e retorna true/false
-const gostaDeProgramar = readlineSync.keyInYN('Voce gosta de programar? (s/n) ');
+const gostaDeProgramar = lerTeclado.keyInYN('Voce gosta de programar? (s/n) ');
+
+// Saída de dados condicial - Se sim, exibe 1ª opção, se não, exibe a 2ª opção
+console.log(`${gostaDeProgramar ? 'Gosta' : 'Não gosta'} de programar.`);
 
 // ============================================================
 // 3. Usando os valores capturados — exemplos de saída compostos
 // ============================================================
 
 console.log("_______________________________");
-
-console.log(`Olá, ${nomeUsuario}! Idade: ${idadeUsuario}`);
-console.log(`${nomeUsuario} ${gostaDeProgramar ? 'gosta' : 'não gosta'} de programar.`);
 
 // Combinar dados em um objeto e imprimir como tabela
 const usuario = { nome: nomeUsuario, idade: idadeUsuario, gostaDeProgramar };
