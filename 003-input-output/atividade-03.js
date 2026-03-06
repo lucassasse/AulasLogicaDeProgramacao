@@ -8,6 +8,8 @@
 //     let lerTeclado = require('readline-sync');
 // Para executar:
 //     node <nomeDoArquivo>.js
+//
+// Dica: Ao terminar um exercício, comente-o. Assim os dados não serão solicitados novamente.
 // ============================================================
 
 
@@ -110,3 +112,54 @@ console.log("_______________________________");
 
 
 console.log("_______________________________");
+
+
+// ------------------------------------------------------------
+// EXERCÍCIO 8 – Ranking de notas
+// ------------------------------------------------------------
+// a) Peça ao usuário o nome de 3 alunos e suas três notas, um por vez.
+// b) Armazene cada aluno como um objeto com as propriedades 'nome' e 'notas'.
+// c) Guarde os 3 objetos em um array chamado 'turma'.
+// d) Exiba o array 'turma' com console.table().
+// e) Exiba o nome e a 1ª nota do 2º aluno.
+// f) Exiba o nome e a 2ª nota do 3º aluno.
+// g) Exiba o nome e a 3ª nota do 1º aluno.
+
+// → Seu código aqui:
+
+
+console.log("_______________________________");
+
+
+// ------------------------------------------------------------
+// EXERCÍCIO 9 – Cadastro de produto
+// ------------------------------------------------------------
+// a) Peça ao usuário os seguintes dados de um produto:
+//    - nome (string)
+//    - categoria (string)
+//    - preço (float)
+//    - quantidade em estoque (inteiro)
+//    - está disponível para venda? (sim/não, usando keyInYN())
+// b) Crie um objeto 'produto' com todas essas propriedades.
+//    A propriedade de disponibilidade deve se chamar 'disponivel' e ser boolean (true/false).
+// c) Exiba o objeto completo com console.table().
+// d) Exiba no console uma frase resumo usando template literal:
+//    "Produto: <nome> | Categoria: <categoria> | Estoque: <quantidade> un".
+
+// → Seu código aqui:
+
+
+console.log("_______________________________");
+
+
+// ------------------------------------------------------------
+// EXERCÍCIO 10 – Farmacia
+// ------------------------------------------------------------
+// a) Peça ao usuário os seguintes dados de dois medicamento com as seguintes propriedades:
+//    - nome (string)
+//    - preco (float)
+//    - emEstoque (boolean) - (sim/não, usando keyInYN())
+// b) Crie uma lista "estoqueFarmacia" e insira os objetos criados com push().
+// c) Exiba a lista com console.table().
+// d) Exiba somente o nome e preço do 2 medicamento.
+// e) Exiba somente o nome e se está em estoque o 1 medicamento.

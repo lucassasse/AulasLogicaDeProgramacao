@@ -6,6 +6,18 @@
 // 0. INTRODUÇÃO
 // ============================================================
 
+// Para inserir comentários no código, utilizamos:
+
+// Duas aspas para comentário simples
+console.log(); // Duas aspas para comentário simples - funciona na linha após o código
+
+/*
+  Para inserir comentários no código, utilizamos:
+
+  - Duas aspas para comentário simples
+  - Barra e asterisco para comentários de várias linhas
+*/
+
 // Para exibir valores no console, utilizamos o console.log()
 
 console.log("Olá, Mundo!"); // exibe a mensagem "Olá, Mundo!" no console

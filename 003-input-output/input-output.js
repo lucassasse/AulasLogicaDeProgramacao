@@ -13,7 +13,6 @@
 // Para executar o arquivo, use o seguinte comando no terminal:
 //     node input-output.js
 
-
 // ============================================================
 // 1. OUTPUT (saída de dados) — usos comuns do console
 // ============================================================
