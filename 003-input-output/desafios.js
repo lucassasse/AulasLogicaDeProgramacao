@@ -36,7 +36,7 @@ console.log("_______________________________");
 // c) Crie uma array chamada "amigos" contendo os dois objetos.
 // d) Exiba a array com console.table().
 // e) Exiba somente o nome e a idade do 2º usuário.
-// f) Exiba somente o endereço completo do 3º usuário.
+// f) Exiba somente o endereço completo do 2º usuário.
 // g) Exiba somente o nome e a rua do 1º usuário.
 
 // → Seu código aqui:
@@ -95,6 +95,7 @@ console.log("_______________________________");
 // h) Exiba com console.log() o nome do 1º viajante.
 
 // → Seu código aqui:
+
 
 
 console.log("_______________________________");
