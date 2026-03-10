@@ -31,7 +31,8 @@ console.log("_______________________________");
 // ------------------------------------------------------------
 // DESAFIO 2 – Dois amigos
 // ------------------------------------------------------------
-// a) Peça os dados de 2 pessoas diferentes (nome, idade e cidade de cada uma).
+// a) Peça os dados de 2 pessoas diferentes (nome, idade e enderecoCompleto de cada uma).
+//    enderecoCompleto deve ser um objeto contendo rua, cidade e estado
 // b) Crie um objeto para cada pessoa com essas propriedades.
 // c) Crie uma array chamada "amigos" contendo os dois objetos.
 // d) Exiba a array com console.table().
@@ -99,3 +100,4 @@ console.log("_______________________________");
 
 
 console.log("_______________________________");
+
