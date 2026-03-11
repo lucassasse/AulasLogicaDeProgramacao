@@ -15,7 +15,7 @@
 // DESAFIO 1 – Cadastro completo
 // ------------------------------------------------------------
 // a) Peça ao usuário os seguintes dados:
-//    nome, idade, profissão, cidade, se gosta de JavaScript, lista de comida favoritos e lista de pessoa(s) com que mora (nome e idade).
+//    nome, idade, profissão, cidade, se gosta de JavaScript, lista de comidas favoritas e lista de pessoa(s) com que mora (nome e idade).
 //    pense em qual tipo de dado cada resposta representa para armazena-los corretamente.
 // b) Crie um objeto "cadastro" com todas essas propriedades.
 // c) Exiba o objeto com console.table().
@@ -100,4 +100,5 @@ console.log("_______________________________");
 
 
 console.log("_______________________________");
+
 
