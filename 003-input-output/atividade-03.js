@@ -119,11 +119,12 @@ console.log("_______________________________");
 // ------------------------------------------------------------
 // a) Peça ao usuário o nome de 3 alunos e suas três notas, um por vez.
 // b) Armazene cada aluno como um objeto com as propriedades 'nome' e 'notas'.
-// c) Guarde os 3 objetos em um array chamado 'turma'.
-// d) Exiba o array 'turma' com console.table().
-// e) Exiba o nome e a 1ª nota do 2º aluno.
-// f) Exiba o nome e a 2ª nota do 3º aluno.
-// g) Exiba o nome e a 3ª nota do 1º aluno.
+// c) notas deve ser uma lista.
+// d) Guarde os 3 objetos em um array chamado 'turma'.
+// e) Exiba o array 'turma' com console.table().
+// f) Exiba o nome e a 1ª nota do 2º aluno.
+// g) Exiba o nome e a 2ª nota do 3º aluno.
+// h) Exiba o nome e a 3ª nota do 1º aluno.
 
 // → Seu código aqui:
 
