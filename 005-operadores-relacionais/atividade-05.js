@@ -125,13 +125,15 @@ console.log("_______________________________");
 // ------------------------------------------------------------
 // EXERCÍCIO 7 – Comparando notas
 // ------------------------------------------------------------
-// a) Peça ao usuário o nome e a nota de 2 alunos e armazene como objetos dentro de uma lista "alunos".
+// a) Peça ao usuário o nome e a idade de 2 pessoas e armazene como objetos dentro de uma lista "cadastro".
 // b) Armazene os resultados das comparações:
-//    - notaAluno1 > notaAluno2
-//    - notaAluno1 === notaAluno2
-//    - notaAluno1 >= 6 (aprovação)
-//    - notaAluno2 >= 6 (aprovação)
-// c) Exiba todos os resultados com template literal.
+//    - idadePessoa1 > idadePessoa2
+//    - idadePessoa1 === idadePessoa2
+//    - idadePessoa1 >= 18 (maior de idade)
+//    - idadePessoa2 >= 18 (maior de idade)
+// c) Exiba todos os resultados com template literal e verificação ternária.
+//    Exemplo: `Idade da <nomePessoa1> é <idadePessoa1> e ela é ${idadePessoa1 >= 18 ? "maior de idade" : "menor de idade"}.`
+// d) Similar ao exemplo acima, verifique e exiba qual pessoa é mais velha.
 
 // → Seu código aqui:
 
