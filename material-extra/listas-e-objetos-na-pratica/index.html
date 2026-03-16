@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Catálogo Musical — Listas e Objetos</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="header-content">
+      <span class="logo">🎵</span>
+      <div>
+        <h1>Catálogo Musical</h1>
+        <p class="subtitle">Demonstração de <strong>Listas</strong> e <strong>Objetos</strong> na Programação</p>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- PAINEL: ESTRUTURA DE DADOS -->
+    <section class="data-panel">
+      <div class="panel-header">
+        <h2>📦 Estrutura de Dados (ao vivo)</h2>
+        <p>É assim que os dados ficam na memória do programa:</p>
+      </div>
+      <div class="code-block">
+        <pre><code id="estrutura-codigo"></code></pre>
+      </div>
+      <div class="conceito-box">
+        <div class="conceito">
+          <span class="tag array">[ ]</span>
+          <strong>Array (Lista)</strong>
+          <span>Coleção ordenada de itens</span>
+        </div>
+        <div class="conceito">
+          <span class="tag objeto">{ }</span>
+          <strong>Objeto</strong>
+          <span>Dados agrupados por chave e valor</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- PAINEL: CATÁLOGO -->
+    <section class="catalogo-panel">
+      <div class="panel-header">
+        <h2>🎤 Artistas Cadastrados</h2>
+        <p id="contador"></p>
+      </div>
+      <div id="lista-artistas" class="lista-artistas"></div>
+    </section>
+
+    <!-- FORMULÁRIOS -->
+    <section class="forms-section">
+
+      <div class="form-card">
+        <h3>➕ Adicionar Artista</h3>
+        <p class="form-hint">Preencha os campos — ao enviar, um novo <strong>objeto</strong> é criado e adicionado à <strong>lista</strong>.</p>
+        <form id="form-artista">
+          <div class="field-group">
+            <label for="nome">Nome do Artista</label>
+            <input type="text" id="nome" placeholder="Ex: Coldplay" required />
+          </div>
+          <div class="field-group">
+            <label for="genero">Gênero Musical</label>
+            <input type="text" id="genero" placeholder="Ex: Pop Rock" required />
+          </div>
+          <div class="field-group">
+            <label for="pais">País de Origem</label>
+            <input type="text" id="pais" placeholder="Ex: Reino Unido" required />
+          </div>
+          <div class="field-group">
+            <label for="musica-inicial">Primeira Música</label>
+            <input type="text" id="musica-inicial" placeholder="Ex: The Scientist" required />
+          </div>
+          <button type="submit" class="btn btn-primary">Cadastrar Artista</button>
+        </form>
+      </div>
+
+      <div class="form-card">
+        <h3>🎵 Adicionar Música</h3>
+        <p class="form-hint">Escolha um artista e adicione uma música à <strong>lista</strong> de músicas dele.</p>
+        <form id="form-musica">
+          <div class="field-group">
+            <label for="artista-select">Selecionar Artista</label>
+            <select id="artista-select" required>
+              <option value="">-- Escolha um artista --</option>
+            </select>
+          </div>
+          <div class="field-group">
+            <label for="nova-musica">Nome da Música</label>
+            <input type="text" id="nova-musica" placeholder="Ex: Yellow" required />
+          </div>
+          <button type="submit" class="btn btn-secondary">Adicionar Música</button>
+        </form>
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- TOAST NOTIFICATION -->
+  <div id="toast" class="toast hidden"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
