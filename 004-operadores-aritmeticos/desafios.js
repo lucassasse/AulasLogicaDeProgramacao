@@ -252,3 +252,89 @@ console.log("_______________________________");
 
 
 console.log("_______________________________");
+
+
+// ------------------------------------------------------------
+// DESAFIO 9 – Compra no mercado
+// ------------------------------------------------------------
+// a) Peça ao usuário o nome, preço e quantidade de 3 produtos, armazenando-os em três objetos (cada produto um objeto).
+//    Use question() para o nome, questionInt() para a quantidade e questionFloat() para o preço.
+// b) Crie um array "carrinho" com os 3 objetos.
+// c) Calcule o total da compra.
+// d) Peça ao usuário o percentual de desconto.
+// e) Calcule o valor do desconto e o total com desconto.
+// f) Exiba o carrinho com console.table().
+// g) Exiba no console:
+//    "Total sem desconto: R$ <total>"
+//    "Desconto:  R$ <desconto>"
+//    "Total com desconto: R$ <totalComDesconto>"
+//    Use toFixed(2) em todos os valores.
+
+// → Seu código aqui:
+
+
+console.log("_______________________________");
+
+
+// ------------------------------------------------------------
+// DESAFIO 10 – Calculadora de IMC
+// ------------------------------------------------------------
+// IMC = peso (kg) / (altura (m) ** 2)
+// a) Peça ao usuário seu nome, peso em kg e altura em metros.
+// b) Calcule o IMC usando a fórmula acima.
+// c) Crie um objeto "resultado" com as propriedades:
+//    nome, peso, altura e imc (use toFixed(2) no imc).
+// d) Exiba o objeto com console.table().
+// e) Exiba no console:
+//    "Olá, <nome>! Seu IMC é: <imc>"
+
+// → Seu código aqui:
+
+
+console.log("_______________________________");
+
+
+// ------------------------------------------------------------
+// DESAFIO 11 – Custo de viagem
+// ------------------------------------------------------------
+// a) Peça ao usuário:
+//    - A distância total da viagem em km.
+//    - O consumo médio do carro em km/litro.
+//    - O preço do combustível por litro.
+//    - Quantas pessoas vão dividir o custo.
+// b) Calcule a quantidade de litros necessários:
+//    litros = distancia / consumo
+// c) Calcule o custo total: custoTotal = litros * precoCombustivel
+// d) Calcule o custo por pessoa: custoPorPessoa = custoTotal / numPessoas
+// e) Exiba no console:
+//    "Distância:          <distancia> km"
+//    "Litros necessários: <litros> L"
+//    "Custo total:        R$ <custoTotal>"
+//    "Custo por pessoa:   R$ <custoPorPessoa>"
+
+// → Seu código aqui:
+
+
+console.log("_______________________________");
+
+
+// ------------------------------------------------------------
+// DESAFIO 12 – Contracheque
+// ------------------------------------------------------------
+// a) Peça ao usuário:
+//    - O nome do funcionário.
+//    - O salário bruto.
+//    - O percentual de desconto do INSS.
+//    - O percentual de desconto do IR.
+// b) Calcule:
+//    - Desconto do INSS: salarioBruto * (inss / 100)
+//    - Desconto do IR:   salarioBruto * (ir / 100)
+//    - Salário líquido:  salarioBruto - descontoINSS - descontoIR
+// c) Crie um objeto "contracheque" com todas as informações.
+// d) Exiba o objeto com console.table().
+// e) Exiba no console uma mensagem com template literal resumindo o contracheque.
+
+// → Seu código aqui:
+
+
+console.log("_______________________________");
