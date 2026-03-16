@@ -1,5 +1,5 @@
 // ============================================================
-//   DESAFIOS (para quem já terminou a atividade 03) – Input e Output em JavaScript
+//   DESAFIOS (para quem já terminou a atividade 04) – Operadores Aritméticos
 // ============================================================
 // Instruções: resolva cada exercício no espaço indicado.
 // Lembre-se de instalar o pacote antes de executar:
