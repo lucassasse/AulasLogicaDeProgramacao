@@ -2,24 +2,17 @@
 //   DESAFIOS (para quem já terminou a atividade 07) – If / Else
 // ============================================================
 // Instruções: resolva cada desafio no espaço indicado.
-// Lembre-se de instalar o pacote antes de executar:
-//     npm install readline-sync
-// Para executar:
-//     node desafios.js
-//
-// Dica: Ao terminar um desafio, comente-o. Assim os dados
-//       não serão solicitados novamente.
 // ============================================================
 
 
 // ------------------------------------------------------------
 // DESAFIO 1 – Classificador de IMC
 // ------------------------------------------------------------
+// Já realizamos um exercício similar, mas agora vamos aprimorar e exibir somente o resultado final.
 // a) Pergunte ao usuário seu nome, peso (kg) e altura (m).
 // b) Armazene os dados em um objeto "pessoa".
 // c) Calcule o IMC: peso / (altura ** 2). Adicione ao objeto.
-// d) Classifique o IMC usando if/else if/else e adicione
-//    a classificação ao objeto:
+// d) Classifique o IMC usando if/else if/else e adicione a classificação ao objeto:
 //    - IMC < 18.5          → "Abaixo do peso"
 //    - IMC >= 18.5 e < 25  → "Peso normal"
 //    - IMC >= 25 e < 30    → "Sobrepeso"
@@ -43,16 +36,27 @@ console.log("_______________________________");
 //    - titular: "Maria"
 //    - saldo: 1500
 //    - bloqueada: false
+//    - senha: 1234
 // b) Peça ao usuário:
-//    - Senha de 4 dígitos (question()). Defina a senha correta como "1234" no objeto.
-//    - Valor a sacar (questionFloat()).
-// c) Usando if/else if/else aninhado, verifique:
+//    - Senha de 4 dígitos.
+// c) Verifique se a senha está correta.
+//    - Se estiver incorreta → "Senha incorreta. Operação cancelada."
+//    - Se estive correta, pergunte ao usuário se deseja sacar ou depositar um valor
+// d) Se ele escolher sacar, pergunte qual valor que deseja sacar.
+//    Se ele escolher depositar, pergunte qual valor que deseja depositar.
+// e) Se for saque, usando if/else if/else (aninhado se necessário), verifique:
 //    1. Se a conta está bloqueada → "Conta bloqueada. Procure uma agência."
-//    2. Se a senha estiver errada → "Senha incorreta. Operação cancelada."
-//    3. Se o valor do saque for menor ou igual a 0 → "Valor inválido."
-//    4. Se o saldo for insuficiente → "Saldo insuficiente. Saldo atual: R$ <saldo>"
-//    5. Caso contrário → realize o saque, atualize o saldo e exiba:
+//    2. Se o valor do saque for menor ou igual a 0 → "Valor inválido."
+//    3. Se o saldo for insuficiente → "Saldo insuficiente. Saldo atual: R$ <saldo>"
+//    4. Caso contrário → realize o saque, atualize o saldo e exiba:
 //       "Saque de R$ <valor> realizado. Novo saldo: R$ <saldo>"
+// f) Se for depósito, usando if/else if/else (aninhado se necessário), verifique:
+//    1. Se a conta está bloqueada → "Conta bloqueada. Procure uma agência."
+//    2. Se o valor do depósito for menor ou igual a 0 → "Valor inválido."
+//    3. Caso contrário → realize o depósito, atualize o saldo e exiba:
+//       "Depósito de R$ <valor> realizado. Novo saldo: R$ <saldo>"
+// Evite repetir linhas de código.
+// Verifique se é possível fazer verificações uma única vez, alterando a lógica ao invés de duplicar código.
 
 // → Seu código aqui:
 
@@ -72,19 +76,18 @@ console.log("_______________________________");
 //   - 18 anos        → 18 anos ou mais
 //
 // a) Pergunte ao usuário:
-//    - Nome do espectador (question()).
-//    - Idade do espectador (questionInt()).
-//    - Classificação do filme escolhido (questionInt()):
+//    - Nome do espectador.
+//    - Idade do espectador.
+//    - Classificação do filme escolhido:
 //      0 – Livre | 10 – 10 anos | 12 – 12 anos |
 //      14 – 14 anos | 16 – 16 anos | 18 – 18 anos
 // b) Armazene os dados em um objeto "cinema".
-// c) Usando if/else if/else, verifique se o espectador
-//    pode assistir ao filme:
+// c) Usando if/else if/else, verifique se o espectador pode assistir ao filme:
 //    - Se a classificação for 0 (Livre) → sempre pode.
 //    - Nos demais casos, compare a idade com a classificação.
 // d) Exiba o resultado:
 //    - Pode assistir → "<nome> pode assistir. Boa sessão!"
-//    - Não pode      → "<nome> não pode assistir. Classificação: <classificação> anos."
+//    - Não pode → "<nome> não pode assistir. Classificação: <classificação> anos."
 
 // → Seu código aqui:
 
@@ -96,9 +99,9 @@ console.log("_______________________________");
 // DESAFIO 4 – Simulador de pedido de lanche
 // ------------------------------------------------------------
 // Cardápio:
-//   1 – X-Burguer    R$ 22,00
-//   2 – X-Frango     R$ 20,00
-//   3 – X-Veggie     R$ 18,00
+//   1 – X-Burguer R$ 22,00
+//   2 – X-Frango  R$ 20,00
+//   3 – X-Veggie  R$ 18,00
 //   4 – Combo (lanche + batata + refri)  R$ 35,00
 //
 // Adicionais (só para os itens 1, 2 e 3):
@@ -106,15 +109,13 @@ console.log("_______________________________");
 //   - Refrigerante: + R$ 5,00
 //
 // a) Pergunte ao usuário:
-//    - Nome (question()).
-//    - Número do lanche desejado (questionInt()).
+//    - Nome.
+//    - Número do lanche desejado.
 //    - Se o lanche não for o Combo:
-//        - Quer batata frita? (keyInYN())
-//        - Quer refrigerante? (keyInYN())
+//        - Quer batata frita?
+//        - Quer refrigerante?
 // b) Armazene todos os dados e o total calculado em um objeto "pedido".
 // c) Calcule o total com base nas escolhas.
-//    Se o número do lanche for inválido (fora de 1–4), exiba:
-//    "Opção inválida. Pedido cancelado."
 // d) Exiba o objeto "pedido" com console.table().
 // e) Exiba o resumo final com template literal:
 //    "Pedido de <nome>: <lanche> + adicionais = R$ <total>"
@@ -133,16 +134,16 @@ console.log("_______________________________");
 //   - Amarelo → atenção (reduza a velocidade)
 //   - Vermelho → pare
 //
-// a) Pergunte ao usuário:
-//    - Cor atual do semáforo (question()): "verde", "amarelo" ou "vermelho".
-//    - Velocidade atual do veículo em km/h (questionInt()).
+// a) Pergunte ao usuário - simulando os dados captados pelo radar:
+//    - Cor atual do semáforo: "verde", "amarelo" ou "vermelho".
+//    - Velocidade atual do veículo em km/h.
 // b) Usando if/else if/else, avalie a situação:
-//    - "verde" e velocidade <= 60  → "Tudo certo. Pode seguir."
-//    - "verde" e velocidade > 60   → "Atenção: acima do limite no sinal verde."
-//    - "amarelo"                   → "Reduza a velocidade e prepare-se para parar."
-//    - "vermelho" e velocidade > 0 → "PARE! Você avançou o sinal vermelho."
-//    - "vermelho" e velocidade = 0 → "Correto. Aguarde o sinal abrir."
-//    - qualquer outra cor          → "Cor de semáforo inválida."
+//    - "verde" e velocidade menor ou igual que 60 → "Tudo certo. Pode seguir."
+//    - "verde" e velocidade maior que 60 → "Atenção: acima do limite no sinal verde."
+//    - "amarelo" → "Reduza a velocidade e prepare-se para parar."
+//    - "vermelho" e velocidade maior que 0 → "PARE! Você avançou o sinal vermelho."
+//    - "vermelho" e velocidade igual a 0 → "Correto. Aguarde o sinal abrir."
+//    - qualquer outra cor → "Cor de semáforo inválida."
 // c) Exiba o resultado com template literal.
 
 // → Seu código aqui:

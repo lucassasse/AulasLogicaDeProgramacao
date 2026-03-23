@@ -5,8 +5,7 @@
 // Estruturas condicionais permitem que o programa tome decisões:
 // execute um bloco de código SE uma condição for verdadeira,
 // e outro bloco SE for falsa.
-// São o primeiro passo para criar programas que "pensam".
-
+// São o primeiro passo para criar programas que "pensam" / que "possuem lógica" de fato.
 
 // ============================================================
 // 1. IF SIMPLES
@@ -145,11 +144,13 @@ if (velocidade > 120) {
   console.log("Velocidade regular.");
 }
 
+// Se eu colocasse (velocidade > 80) por primeiro, o bloco dele seria executado, mas os mais específicos nem seriam testados
+
 console.log("_______________________________");
 
 
 // ============================================================
-// 4. IF ANINHADO (nested if)
+// 4. IF ANINHADO
 // ============================================================
 
 // É possível colocar um if dentro de outro if.
@@ -157,12 +158,18 @@ console.log("_______________________________");
 
 let temIngresso  = true;
 let idadeCliente = 15;
+let possuiAcompanhante = false;
 
 if (temIngresso) {
   if (idadeCliente >= 18) {
     console.log("Entrada liberada.");
   } else {
     console.log("Entrada liberada com acompanhante adulto.");
+    if (possuiAcompanhante) {
+      console.log("Entrada com acompanhante liberada.");
+    } else {
+      console.log("Entrada negada.");
+    }
   }
 } else {
   console.log("Sem ingresso. Entrada negada.");
@@ -188,20 +195,24 @@ let usuario = {
 let produto = {
   nome:  "Fone de Ouvido",
   preco: 75,
-  stock: true
+  estoque: 5
 };
 
 // Pode comprar? Tem cadastro E saldo suficiente E produto em estoque
-if (usuario.temCadastro && usuario.saldoCarteira >= produto.preco && produto.stock) {
+if (usuario.temCadastro && usuario.saldoCarteira >= produto.preco && produto.estoque > 0) {
   console.log(`${usuario.nome} pode comprar ${produto.nome}!`);
+  produto.estoque--;
+  usuario.saldoCarteira -= produto.preco;
+  console.log("Compra realizada com sucesso!");
+  console.log(`Saldo restante: R$ ${usuario.saldoCarteira}`);
 } else {
   console.log("Compra não autorizada.");
 }
 
 console.log("_______________________________");
 
-// Acesso VIP: maior de 18 OU tem cadastro
-let ehVip = usuario.idade >= 18 || usuario.temCadastro;
+// Acesso VIP: maior de 18 OU tem cadastro e saldo > 100000
+let ehVip = (usuario.idade >= 18 || usuario.temCadastro) && usuario.saldoCarteira > 100000;
 if (ehVip) {
   console.log("Bem-vindo(a) à área VIP!");
 } else {
