@@ -98,7 +98,6 @@ console.log("_______________________________");
 //    - 1 a 5  → exiba: "Dia útil"
 //    - 6 ou 7 → exiba: "Final de semana"
 //    - default → "Número inválido"
-// c) Exiba também o nome do dia correspondente (Segunda a Domingo).
 
 // → Seu código aqui:
 
