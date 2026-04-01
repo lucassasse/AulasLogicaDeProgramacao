@@ -124,3 +124,38 @@ console.log("_______________________________");
 
 
 console.log("_______________________________");
+
+
+// ------------------------------------------------------------
+// DESAFIO 5 – TÁXI OU APP?
+// ------------------------------------------------------------
+// O usuário informa a distância em km e o horário (dia ou noite).
+// O programa calcula o preço estimado no táxi e em um app de corridas
+// e recomenda a opção mais barata.
+//
+// Tabela:
+//   Táxi: R$5 bandeirada + R$3/km (noite: R$4/km)
+//   App:  R$2 taxa fixa  + R$2/km (noite: R$2.50/km)
+
+// → Seu código aqui:
+
+
+console.log("_______________________________");
+
+
+// ------------------------------------------------------------
+// DESAFIO 6 – CRIE SEU PERSONAGEM DE RPG
+// ------------------------------------------------------------
+// O usuário responde 3 ou mais perguntas de multipla escolha (crie outras se quiser)
+//  ex: prefere magia ou força?
+//      prefere ataque ou defesa?
+//      prefere floresta ou cidade?
+//      prefere dia ou noite?
+//      prefere furtividade ou agressividade?
+//      prefere ataque a distância ou corpo a corpo?
+// Com base nas respostas, o programa revela uma classe de personagem
+// (guerreiro, mago, arqueiro, ladino, etc).
+//
+// Você pode criar um sistema de atribuição de pontos para cada resposta
+// e determinar a classe final com base na pontuação total,
+// ou simplesmente fazer verificações diretas. Use a criatividade para resolver este desafio.
