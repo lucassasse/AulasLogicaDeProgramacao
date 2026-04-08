@@ -85,11 +85,11 @@ console.log("_______________________________");
 // ------------------------------------------------------------
 // EXERCÍCIO 7 – Percorrendo um array
 // ------------------------------------------------------------
-// a) Declare o array:
-//    const cidades = ["São Paulo", "Rio de Janeiro", "Curitiba", "Salvador", "Fortaleza"];
-// b) Usando um for, exiba cada cidade com seu índice no formato:
-//    "[0] São Paulo"
-// c) Ao final, exiba: "Total de cidades: <qtd>"
+// a) Utilizando o array:
+    const cidades = ["São Paulo", "Rio de Janeiro", "Curitiba", "Salvador", "Fortaleza"];
+// b) Utilizando de um for, exiba cada cidade com seu índice no formato:
+//    "[<indice>] - <Cidade>"
+// c) Ao final, exiba: "Total de cidades: <quantidade>"
 
 // → Seu código aqui:
 
@@ -116,8 +116,8 @@ console.log("_______________________________");
 // ------------------------------------------------------------
 // EXERCÍCIO 9 – Contando com condição
 // ------------------------------------------------------------
-// a) Declare o array:
-//    const idades = [12, 25, 17, 34, 15, 42, 16, 29, 8, 19];
+// a) Utilizando do array:
+    const idades = [12, 25, 17, 34, 15, 42, 16, 29, 8, 19];
 // b) Usando um for, conte:
 //    - Quantas pessoas são menores de idade (< 18)
 //    - Quantas são maiores de idade (>= 18)
@@ -132,8 +132,8 @@ console.log("_______________________________");
 // ------------------------------------------------------------
 // EXERCÍCIO 10 – Média com array
 // ------------------------------------------------------------
-// a) Declare o array:
-//    const salarios = [1800, 3200, 950, 4500, 2100, 1500, 7800, 2900];
+// a) Utilizando do array:
+    const salarios = [1800, 3200, 950, 4500, 2100, 1500, 7800, 2900];
 // b) Usando um for, calcule a média salarial.
 // c) Exiba a média no formato: "Média salarial: R$ <media>"
 // d) Usando outro for, exiba cada salário e se está acima ou abaixo da média:
@@ -181,38 +181,6 @@ console.log("_______________________________");
 //    "<nome>: R$ <preco>"
 // e) Exiba o produto mais caro e o mais barato.
 // f) Exiba o array com console.table().
-
-// → Seu código aqui:
-
-
-console.log("_______________________________");
-
-
-// ------------------------------------------------------------
-// EXERCÍCIO 13 – Break: busca em array
-// ------------------------------------------------------------
-// a) Declare o array:
-//    const nomes = ["Ana", "Bruno", "Carla", "Diego", "Elena"];
-// b) Pergunte ao usuário um nome para buscar (question()).
-// c) Usando um for com break, percorra o array procurando o nome.
-//    - Se encontrar, exiba: "Nome encontrado na posição <i>!" e pare o laço.
-//    - Se não encontrar (use uma variável booleana 'encontrado'),
-//      exiba ao final: "Nome não encontrado."
-
-// → Seu código aqui:
-
-
-console.log("_______________________________");
-
-
-// ------------------------------------------------------------
-// EXERCÍCIO 14 – Continue: filtrando valores
-// ------------------------------------------------------------
-// a) Declare o array:
-//    const valores = [45, -12, 78, 0, -5, 33, -99, 61, 0, 14];
-// b) Usando um for com continue, percorra o array e exiba
-//    apenas os valores positivos (maiores que zero).
-// c) Ao final, exiba a soma apenas dos valores positivos.
 
 // → Seu código aqui:
 
