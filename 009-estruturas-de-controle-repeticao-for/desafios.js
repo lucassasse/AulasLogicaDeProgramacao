@@ -13,7 +13,7 @@
 // a) Pergunte ao usuário:
 //    - Saldo inicial (questionFloat())
 //    - Taxa de juros mensal em % (questionFloat()) — ex: 1.5
-//    - Número de meses (questionInt())
+//    - Número de meses
 // b) Usando um for, calcule e exiba mês a mês:
 //    "Mês 1:  R$ <saldo>"
 //    "Mês 2:  R$ <saldo>"
@@ -30,31 +30,14 @@ console.log("_______________________________");
 
 
 // ------------------------------------------------------------
-// DESAFIO 3 – Verificador de números primos
+// DESAFIO 2 – Cadastro e relatório de alunos
 // ------------------------------------------------------------
-// Um número primo é divisível apenas por 1 e por ele mesmo.
-//
-// a) Peça ao usuário um número inteiro N >= 2 (questionInt()).
-// b) Usando um for, verifique se N é primo:
-//    - Percorra os divisores de 2 até N-1.
-//    - Se encontrar algum que divida N exatamente, não é primo. Use break.
-// c) Exiba: "<N> é primo." ou "<N> não é primo."
-
-// → Seu código aqui:
-
-
-console.log("_______________________________");
-
-
-// ------------------------------------------------------------
-// DESAFIO 4 – Cadastro e relatório de alunos
-// ------------------------------------------------------------
-// a) Pergunte ao usuário quantos alunos serão cadastrados (questionInt()).
+// a) Pergunte ao usuário quantos alunos serão cadastrados.
 // b) Usando um for, colete de cada aluno:
 //    - Nome (question())
 //    - Nota 1, Nota 2 e Nota 3 (questionFloat() para cada)
 // c) Calcule a média de cada aluno e armazene como objeto:
-//    { nome, nota1, nota2, nota3, media, situacao }
+//    { nome, notas, media, situacao }
 //    A situação deve ser:
 //      "Aprovado"    → média >= 7
 //      "Recuperação" → média >= 5 e < 7
@@ -75,19 +58,18 @@ console.log("_______________________________");
 
 
 // ------------------------------------------------------------
-// DESAFIO 5 – Jogo de adivinhar o número
+// DESAFIO 3 – Jogo de adivinhar o número
 // ------------------------------------------------------------
-// O programa sorteia um número de 1 a 100 e o usuário tem
-// no máximo 7 tentativas para adivinhar.
+// O programa sorteia um número de 1 a 100 e o usuário tem no máximo 7 tentativas para adivinhar.
 //
-// a) Gere um número aleatório:
-//    const secreto = Math.floor(Math.random() * 100) + 1;
-// b) Usando um for de 1 a 7 (máximo de tentativas):
-//    - Peça ao usuário um palpite (questionInt()).
-//    - Se acertar: exiba "Parabéns! Acertou em <i> tentativa(s)!" e use break.
+// a) Gere um número aleatório
+//    Para gerar um número aleatório, utilize a função Math.random()
+// b) Usando um for:
+//    - Peça ao usuário um palpite.
 //    - Se errar: exiba "Muito alto!" ou "Muito baixo!" conforme o caso.
 //    - Informe quantas tentativas restam: "Tentativas restantes: <restantes>"
-// c) Se o usuário esgotar as 7 tentativas sem acertar, exiba:
+//    - Se acertar: exiba "Parabéns! Acertou em <i> tentativa(s)!"
+// c) Se o usuário esgotar as tentativas sem acertar, exiba:
 //    "Game over! O número era <secreto>."
 // d) Ao final, exiba um resumo:
 //    - Número secreto
@@ -101,7 +83,7 @@ console.log("_______________________________");
 
 
 // ------------------------------------------------------------
-// DESAFIO 6 – Análise de vendas mensais
+// DESAFIO 4 – Análise de vendas mensais
 // ------------------------------------------------------------
 // a) Declare o array de vendas mensais (Jan a Dez):
 //    const vendas = [12500, 9800, 15200, 11000, 13750, 8900,
