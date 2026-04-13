@@ -104,11 +104,10 @@ console.log("\n_______________________________");
 //
 //   e) Compare a resposta do jogador com a resposta correta utilizando if/else ou switch:
 //      - Se acertou:
-//          Exiba: "✅ Correto!"
+//          Exiba: "Correto!"
 //          Incremente pontos
 //      - Se errou:
-//          Exiba: "❌ Errado! A resposta correta era: <resposta>"
-
+//          Exiba: "Errado! A resposta correta era: <resposta>"
 
 // → Seu código aqui:
 
@@ -123,11 +122,11 @@ console.log("\n_______________________________");
 // PASSO 4 – Após o for(), calcule o aproveitamento em % (pontos / perguntas.length) * 100;
 //
 // PASSO 5 – Determine a classificação:
-//           100%      → "🏆 PERFEITO! Gênio!"
-//           75% a 99% → "🥇 Excelente! Quase lá!"
-//           50% a 74% → "🥈 Bom! Você sabe bastante."
-//           25% a 49% → "🥉 Regular. Vale estudar mais."
-//           abaixo    → "💀 Fraco. Bora revisar o conteúdo!"
+//           100%      → "PERFEITO! Gênio!"
+//           75% a 99% → "Excelente! Quase lá!"
+//           50% a 74% → "Bom! Você sabe bastante."
+//           25% a 49% → "Regular. Vale estudar mais."
+//           abaixo    → "Fraco. Bora revisar o conteúdo!"
 //
 // PASSO 6 – Exiba o resultado final:
 //           "|==============================================="
@@ -140,7 +139,6 @@ console.log("\n_______________________________");
 //
 // PASSO 7 – Armazene o resultado em um objeto e exiba com console.table():
 //           { jogador, acertos, total, aproveitamento, classificacao }
-
 
 // → Seu código aqui:
 
