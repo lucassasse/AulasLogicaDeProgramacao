@@ -1,15 +1,15 @@
 // ============================================================
 //   AULA: Estruturas de Controle – Interrompendo Laços
-//         (break / continue / return)
+//         (break / continue)
 // ============================================================
 
 // Às vezes precisamos interromper ou pular uma repetição
 // antes que a condição do laço naturalmente se torne false.
-// Para isso, usamos: break, continue e return.
+// Para isso, usamos: break ou continue.
 
 
 // OBSERVAÇÃO: A PARTIR DESTE MOMENTO, NÃO UTILIZAR MAIS a função "process.exit()".
-// Em vez disso, vamos usar break, continue e return para controlar o fluxo.
+// Em vez disso, vamos usar break ou continue para controlar o fluxo.
 
 // O process.exit() é uma função especial do Node.js que atrapalha o funcionamento lógico do código,
 // pois interrompe a execução de forma abrupta, sem permitir que outras partes do código sejam

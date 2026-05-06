@@ -32,16 +32,16 @@ console.log("_______________________________");
 
 
 // ------------------------------------------------------------
-// EXERCÍCIO 3 – Return: verificar aprovação
+// EXERCÍCIO 3 – Verificar aprovação
 // ------------------------------------------------------------
 // a) Dado o array de notas:
 const notasAlunoA = [8, 7, 6.2, 9, 5, 7.5, 9, 8.9, 2.2, 10, 7.4];
 const notasAlunoB = [8, 4.5, 6.3, 9];
 
 // b) Percorra ambos os array com for - um for para cada array.
-//    Se encontrar uma nota menor que 5, retorne imediatamente a mensagem:
+//    Se encontrar uma nota menor que 5, exiba imediatamente a mensagem:
 //    "Reprovado na nota <nota> (índice <i>)" e pare o loop
-// c) Se nenhuma nota for menor que 5, retorne: "Aprovado!"
+// c) Se nenhuma nota for menor que 5, exiba: "Aprovado!"
 // d) Teste com dois arrays:
 
 // → Seu código aqui:
@@ -85,7 +85,7 @@ console.log("_______________________________");
 
 
 // ------------------------------------------------------------
-// EXERCÍCIO 6 – Return: busca em array de objetos
+// EXERCÍCIO 6 – Busca em array de objetos
 // ------------------------------------------------------------
 // a) Dado o array de alunos:
    const alunos = [
@@ -97,7 +97,7 @@ console.log("_______________________________");
      { nome: "Fernando", nota: 3.8 }
    ];
 // b) Crie um array que retorna o primeiro aluno com nota < 5.
-//    Se não houver, retorna null.
+//    Se não houver, retorna "Nenhum aluno reprovado".
 
 // → Seu código aqui:
 
